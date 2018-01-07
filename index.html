@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+    <style>
+        html {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">{{m}}</div>
+    <script>
+        var app = new Vue({
+            el : '#app',
+            data : {
+                m : 'hellow vue!'
+            }
+        });
+    </script>
+    <br>
+
+    <div id="app_2"><span v-bind:title="m">光标悬停</span></div>
+    <script>
+        var app2 = new Vue({
+            el : '#app_2',
+            data : {
+                m : '新消息'
+            }
+        })
+    </script>
+    <br>
+
+    <div id="app_3">
+        <p v-if="seen">看到我了</p>
+    </div>
+    <script>
+        var app3 = new Vue({
+            el: '#app_3',
+            data: {
+                seen: true
+            }
+        })
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
