@@ -1,4 +1,4 @@
-*,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section {margin: 0;padding: 0}
+*,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,a,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section {margin: 0;padding: 0}
 h1,h2,h3,h4,h5,h6,input,textarea,select,button {font-size: 100%;font-weight: normal}
 ul,ol {list-style-type: none;list-style-image: none}
 li {list-style: none}
@@ -15,12 +15,14 @@ header {
     overflow: hidden;
     margin-top: 1rem;
 }
-header p{
+p.header{
     position: absolute;
-    width: 100%;
+    width: 30rem;
     height: 100%;
-    font-size: large;
-    animation: headerp 5s infinite 0s linear;
+    font-size: 1rem;
+    font-weight: bold;
+    color: darkred;
+    animation: headerp 10s infinite 0s linear;
 }
 @keyframes headerp {
     from {
@@ -39,7 +41,6 @@ section {
 div.flipster{
     position: absolute;
     width: 100%;
-
 }
 ul.flip_items {
     position: absolute;
@@ -54,7 +55,16 @@ li.item{
     border: .005rem solid #ebe9e9;
     box-shadow: 0 0.02rem 0.06rem 0 rgba(0,0,0,.13);
     border-radius: .12rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+li a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 .headimg {
     position: absolute;
@@ -69,10 +79,22 @@ li.item{
     left: 5rem;
     top: 0.5rem;
 }
-li.item p{
+p.heading {
     position: relative;
-    left: 5rem;
+    left: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
 }
+p.description{
+    position: relative;
+    left: 0;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
 
 
 
