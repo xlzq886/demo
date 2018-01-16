@@ -49,9 +49,9 @@ ul.flip_items {
 li.item{
     display: block;
     position: relative;
-    width: 90%;
+    width: 96%;
     height: 5rem;
-    left: 5%;
+    left: 2%;
     border: .005rem solid #ebe9e9;
     box-shadow: 0 0.02rem 0.06rem 0 rgba(0,0,0,.13);
     border-radius: .12rem;
