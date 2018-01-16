@@ -1,0 +1,96 @@
+*,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section {margin: 0;padding: 0}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button {font-size: 100%;font-weight: normal}
+ul,ol {list-style-type: none;list-style-image: none}
+li {list-style: none}
+html,body {overflow: hidden;-webkit-user-select: none;-moz-user-select: none;user-select: none;font-family: "microsoft yahei",'Helvetica Neue',Roboto;height: 100%;}
+a,img {-webkit-touch-callout: none}
+a {text-decoration: none;color: #333}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    background: 100% 100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+header p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    animation: headerp 5s infinite 0s linear;
+}
+@keyframes headerp {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
+section {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 3rem;
+}
+div.flipster{
+    position: absolute;
+    width: 100%;
+
+}
+ul.flip_items {
+    position: absolute;
+    width: 100%;
+}
+li.item{
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 5rem;
+    left: 5%;
+    border: .005rem solid #ebe9e9;
+    box-shadow: 0 0.02rem 0.06rem 0 rgba(0,0,0,.13);
+    border-radius: .12rem;
+    margin-top: 1rem;
+}
+.headimg {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+.headp {
+    position: absolute;
+    height: 4rem;
+    left: 5rem;
+    top: 0.5rem;
+}
+li.item p{
+    position: relative;
+    left: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
