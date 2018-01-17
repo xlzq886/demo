@@ -61,7 +61,11 @@ img.tempImg {
     width: 70%;
     left: 15%;
 }
-
+#wx {
+    width: 30%;
+    left: 35%;
+    margin-top: 0;
+}
 
 
 
