@@ -1,0 +1,24 @@
+#wxbbgs {
+    position: relative;
+    width: 40%;
+    height: auto;
+    left: 15%;
+}
+#finger {
+    position: relative;
+    width: 30%;
+    height: auto;
+    left: 15%;
+}
+#mission {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 5%;
+}
+#player {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 5%;
+}
