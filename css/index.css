@@ -2,13 +2,13 @@
 h1,h2,h3,h4,h5,h6,input,textarea,select,button {font-size: 100%;font-weight: normal}
 ul,ol {list-style-type: none;list-style-image: none}
 li {list-style: none}
-html,body {overflow: hidden;-webkit-user-select: none;-moz-user-select: none;user-select: none;font-family: "microsoft yahei",'Helvetica Neue',Roboto;height: 100%;}
+html,body {-webkit-user-select: none;-moz-user-select: none;user-select: none;font-family: "microsoft yahei",'Helvetica Neue',Roboto;height: 100%;}
 body {background-color: rgb(239, 239, 239)}
 a,img {-webkit-touch-callout: none}
 a {text-decoration: none;color: #333}
 
 header {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 2rem;
     background: 100% 100%;
@@ -34,17 +34,16 @@ p.header{
     }
 }
 section {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
-    top: 3rem;
 }
 div.flipster{
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 ul.flip_items {
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 li.item{
@@ -95,7 +94,16 @@ p.description{
     font-size: 0.8rem;
     text-align: left;
 }
-
+.font_notice {
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 0.9rem;
+    color: darkred;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
 
 
 
